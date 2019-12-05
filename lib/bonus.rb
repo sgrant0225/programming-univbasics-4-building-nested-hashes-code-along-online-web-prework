@@ -27,5 +27,5 @@ def bonus
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   def bonus
   epic_tragedy[:hero][:status] = "dead"
+  puts epic_tragedy
 end
-puts epic_tragedy
